@@ -2,18 +2,19 @@ package lab1;
 
 public class Multiples {
     public static void main(String[] args) {
-        final int MAX = 999;
+        System.out.println("There are " +
+                            multiples(100, 3, 5) +
+                            " multiples of 3 or 5 below 1000");
+    }
 
+    public static int multiples(int n, int a, int b) {
         int numMultiples = 0;
 
-        for (int i = 1; i <= MAX; i++) {
-            if (i % 3 == 0 || i % 5 == 0) {
+        for (int i = 1; i < n; i++) {
+            if (i % a == 0 || i % b == 0) {
                 numMultiples++;
             }
         }
-
-        System.out.println("There are " +
-                            numMultiples +
-                            "multiples of 3 or 5 below 1000");
+        return numMultiples;
     }
 }
