@@ -2,7 +2,14 @@ package lab1;
 
 public class Reduce {
     public static void main(String[] args) {
-        int n = 100;
+        int n = 256;
+
+        int iterations = reduce(n);
+
+        System.out.println("Iterations: " + iterations);
+    }
+
+    public static int reduce(int n) {
         int iterations = 0;
 
         while (n > 0) {
@@ -15,7 +22,6 @@ public class Reduce {
 
             iterations++;
         }
-
-        System.out.println("Iterations: " + iterations);
+        return iterations;
     }
 }
