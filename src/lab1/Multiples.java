@@ -19,6 +19,6 @@ public class Multiples {
     }
 
     public static int multiples() {
-        return multiples(100, 3, 5);
+        return multiples(1000, 3, 5);
     }
 }

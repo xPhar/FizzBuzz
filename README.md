@@ -472,7 +472,7 @@ but the above was the core activity for this week.
 
 ## Checking your logs
 
-- [ ] Check with your team to see how many commits you each made during the lab in your FizzBuzz repo.
+- [X] Check with your team to see how many commits you each made during the lab in your FizzBuzz repo.
   You can view the log of commits on GitHub or use the `git log` command to view a summary of the commits to the repository.
 
 ## Bonus: Collaboration with git (only if you have time)
